@@ -3,17 +3,17 @@ body {
 }
 
 .logo {
-  padding-top: 11rem;
+  padding-top: 7.6rem;
 }
 
 .logo img {
-  width: 100px;
+  width: 130px;
 }
 
 .logo p {
   color: #fff;
   font-family: monospace;
-  font-size: 36px;
+  font-size: 6rem;
 }
 
 .header {
@@ -52,6 +52,7 @@ body {
 }
 
 .btn {
+  transition: all 0.2s ease;
   min-height: 100px;
   white-space: normal;
   padding:1.5rem;
@@ -94,6 +95,12 @@ a:hover {
   color: #0097a7;
 }
 
-.icon-group {
+.icon-group a {
   font-size: 3rem;
+  color: #000;
+  transition: all 0.2s ease;
+}
+
+.icon-group a:hover {
+  color: #0097a7
 }
