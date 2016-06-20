@@ -3,7 +3,7 @@ body {
 }
 
 .logo {
-  padding-top: 7.6rem;
+  padding-top: 5.6rem;
 }
 
 .logo img {
@@ -17,7 +17,8 @@ body {
 }
 
 .header {
-  background-image: url(../img/background3.jpg);
+  /* Image by Andrew Illarionov - https://unsplash.com/photos/-WW8jBak7bo*/
+  background-image: url(../img/background5.jpg);
   background-position: 50% 90%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,12 +50,15 @@ body {
   margin-bottom: 4rem;
 }
 
+.about-text p a {
+  color:#e6158d;
+}
+
 .about-text p span {
   font-weight: 800;
 }
 
 .col-sm-6 {
-  margin-bottom: -20px;
   margin-left: -5px;
   margin-right: -5px;
 }
@@ -80,7 +84,7 @@ body {
 }
 
 .btn:hover {
-  background-color:#0097a7;
+  background-color:#e6158d;
   color: #fff;
   text-decoration:none;
 }
@@ -107,11 +111,7 @@ body {
 }
 
 .footer a {
-  color: #0097a7;
-}
-
-.footer a:hover {
-  color: #23527c;
+  color: #e6158d;
 }
 
 .icon-group {
@@ -125,7 +125,7 @@ body {
 }
 
 .icon-group a:hover {
-  color: #0097a7
+  color: #e6158d;
 }
 
 @media (min-width: 1200px) {
