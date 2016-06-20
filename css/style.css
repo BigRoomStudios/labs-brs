@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-  background-image: url(background3.jpg);
+  background-image: url(../img/background3.jpg);
   background-position: 50% 90%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -40,11 +40,18 @@ body {
 }
 
 .about-text h1 {
-  margin: 5rem 0 4rem 0;
+  margin: 6rem 0 4rem 0;
 }
 
 .about-text p {
   font-size: 15px;
+  margin-bottom: 4rem;
+}
+
+.col-sm-6 {
+  margin-bottom: -20px;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 
 .column a {
@@ -78,21 +85,25 @@ a:hover {
 
 .btn p {
   margin-bottom: 16px;
-  font-size: 16px;
-  padding: 0rem 2rem 0rem 2rem;
+  font-size: 14px;
+  padding: 0rem .5rem 0rem .5rem;
 }
 
 .footer {
   min-height: 180px;
-  padding-top:5rem;
 }
 
 .footer h2 {
   padding: 0rem 4rem 0rem 4rem;
+  margin-bottom: 20px;
 }
 
 .footer a {
   color: #0097a7;
+}
+
+.icon-group {
+  padding: 2rem 0 2rem 0;
 }
 
 .icon-group a {
@@ -103,4 +114,17 @@ a:hover {
 
 .icon-group a:hover {
   color: #0097a7
+}
+
+@media (min-width: 1200px) {
+
+  .header {
+    height: 400px;
+  }
+
+  .layer {
+    height:400px;
+  }
+
+
 }
