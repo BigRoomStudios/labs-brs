@@ -67,11 +67,6 @@ body {
   font-weight: 800;
 }
 
-.col-sm-6 {
-  margin-left: -5px;
-  margin-right: -5px;
-}
-
 .btn {
   transition: all 0.2s ease;
   min-height: 100px;
@@ -111,20 +106,11 @@ body {
 }
 
 .footer {
-  min-height: 180px;
-}
-
-.footer h2 {
-  padding: 0rem 4rem 0rem 4rem;
-  margin-bottom: 20px;
+  padding:1rem 0  7rem 0;
 }
 
 .footer a {
   color: #e6158d;
-}
-
-.icon-group {
-  padding: 2rem 0 2rem 0;
 }
 
 .icon-group a {
