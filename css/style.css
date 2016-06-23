@@ -16,7 +16,7 @@ body {
 
 .header {
   /* Image by Pi Slices - http://pislices.ca/post/127236905719/magic-carpet-150821 */
-  background: #000 url('/img/bg-pi-slices.gif') no-repeat center;
+  background: #101010 url('/img/bg-pi-slices.gif') no-repeat center;
   height: 350px;
   width:100%;
   position: relative;
