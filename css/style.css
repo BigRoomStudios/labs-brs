@@ -2,17 +2,28 @@ body {
   background-color:#fafafa;
 }
 
+.container {
+  padding:0 4rem;
+}
+
+@media (min-width: 768px) {
+
+  .container {
+    padding:2rem;
+  }
+
+}
+
 .header {
-  /* Image by Andrew Illarionov - https://unsplash.com/photos/-WW8jBak7bo*/
-  background: url('/img/background5.jpg') no-repeat center bottom;
-  background-size: cover;
+  /* Image by Pi Slices - http://pislices.ca/post/127236905719/magic-carpet-150821 */
+  background: #101010 url('/img/giphy.gif') center;
   height: 350px;
   width:100%;
   position: relative;
 }
 
 .layer {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(118,21,134,0.74);
     position: absolute;
     top: 0;
     left: 0;
@@ -21,7 +32,7 @@ body {
 }
 
 .logo {
-  padding:4rem 0;
+  padding:5.5rem 0;
 }
 
 .logo img {
@@ -34,17 +45,6 @@ body {
   color: #fff;
   font-family: monospace;
   font-size: 400%;
-}
-
-@media (min-width: 1200px) {
-
-  .header {
-    height: 600px;
-  }
-
-  .logo {
-    padding-top: 19rem;
-  }
 }
 
 .content {
@@ -65,6 +65,10 @@ body {
 
 .content span {
   font-weight: 800;
+}
+
+.row .btn {
+  margin-bottom:3rem;
 }
 
 .btn {
