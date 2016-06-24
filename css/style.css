@@ -47,17 +47,6 @@ body {
   font-size: 400%;
 }
 
-@media (min-width: 1200px) {
-
-  .header {
-    height: 600px;
-  }
-
-  .logo {
-    padding-top: 19rem;
-  }
-}
-
 .content {
   padding:4rem 0;
 }
