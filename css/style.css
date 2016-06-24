@@ -16,14 +16,14 @@ body {
 
 .header {
   /* Image by Pi Slices - http://pislices.ca/post/127236905719/magic-carpet-150821 */
-  background: #101010 url('/img/bg-pi-slices.gif') no-repeat center;
+  background: #101010 url('/img/giphy.gif') center;
   height: 350px;
   width:100%;
   position: relative;
 }
 
 .layer {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(45,1,38,0.88);
     position: absolute;
     top: 0;
     left: 0;
@@ -32,7 +32,7 @@ body {
 }
 
 .logo {
-  padding:4rem 0;
+  padding:5.5rem 0;
 }
 
 .logo img {
