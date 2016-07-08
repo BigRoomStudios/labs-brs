@@ -75,7 +75,7 @@ body {
   transition: all 0.2s ease;
   min-height: 100px;
   white-space: normal;
-  padding:1.5rem;
+  padding:1.5rem 1.3rem;
   margin-bottom: 1rem;
   word-wrap: break-word;
   border: none;
@@ -106,7 +106,6 @@ body {
 .btn p {
   margin-bottom: 16px;
   font-size: 14px;
-  padding: 0rem .5rem 0rem .5rem;
 }
 
 .footer {
